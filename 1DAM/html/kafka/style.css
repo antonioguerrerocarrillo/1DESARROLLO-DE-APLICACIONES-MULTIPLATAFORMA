@@ -1,0 +1,24 @@
+h1 {
+	font-size: 55px;
+	color: #FFBF00;
+	font-family: "Georgia", time, sarif;
+	text-shadow: -2px -2px 2px #886A08, -2px 2px 2px #886A08, 2px -2px 2px #886A08, 2px 2px 2px #886A08;
+}
+body {
+	background-image: url("descarga.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+
+}
+div {
+	background-image: url("oli.jpg");
+	background-position: right;
+	background-size: 10%;
+}
+ol {
+	margin-left: 20%;
+	margin-top: 10%;
+	font-size: 35px;
+	color: #886A08;
+}

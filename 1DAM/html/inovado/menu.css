@@ -1,0 +1,364 @@
+body {
+	margin: 0;
+}
+#fondo {
+	background-image: url("fondo1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 350px; /* altura de la imagen de fondo */
+	padding: 0; /* relleno */
+	top: 0; /* espacio que va a ver arriba*/
+	left:0; 
+	right: 0;
+	width: 100%; /* ancho de la pagina */
+	background-size: cover; /* rellene el contenedor en el que esta*/
+}
+
+#iconos{
+    margin-left: 850px;
+    margin-top: -13px;
+    display: block;
+    padding: 0px;
+    background-size: cover;
+}
+
+#cabecera1 {
+	overflow: auto;
+}
+#cajaizq{
+    font-family: sans-serif;
+}
+#partelogo {
+	padding-top: 20px;
+    padding-left: 20px;
+    width: 20%;
+    float: left;
+    overflow: auto;
+}
+#vision {
+	float: left;
+	overflow: visible;
+}
+#menu {
+     font-family: Open Sans, Arial, Helvetica, sans-serif;
+	 display: block;
+	 font-size: 0.60em; 
+	 margin-left: 470px;
+     margin-top: 0px; 
+	 width: 750px;
+	 color: #289dcc; 
+	 text-align: center;
+	 float:right;
+     position: fixed;
+}
+#inovado{
+    color: blue;
+    margin-left: 150px;
+    font-size: 1.75em;
+}
+
+#correoarriba{
+    margin-left: 100px;
+    color: #A4A4A4;
+    text-decoration: #289dcc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.35em;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #848484;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a5a5a5;
+    min-width: 160px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.15), 4px 10px 15px rgba (0,0,0,.1);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    color: #666666;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+#cajaizq {
+    height: 600px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+      width: 300px;
+      margin-left: 80px;
+      text-align: center;
+      font-size: 16px;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      color: #848484;
+}
+#descrip1{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #289dcc;
+    margin-left: 200px;
+}
+#descrip2{
+font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #a5a5a5;
+    margin-left: 180px;
+}
+#fondo3{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px; /* altura de la imagen de fondo */
+    padding: 0; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0; 
+    right: 0;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+
+}
+#fondoal{
+    margin-left: 180px;
+}
+#saltodelinea{
+    height: 40px;
+}
+.contenedorformulario {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contenedorformulario > div {
+      width: 450px;
+      margin-left: 80px;
+      text-align: center;
+      font-size: 16px;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      color: #848484;
+}
+
+
+#calendario{
+    width: 0px;
+    height: 50px;
+    font-size: 50px;
+
+}
+#fondocaja{
+    font-color: red;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+#descrip11{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+#fondo5{
+    background-color: #f1f1f1;
+}
+.contenedorarriba {
+    display: flex;
+    background-color: ;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #f1f1f1;
+}
+
+.contenedorarriba > div {
+  background-color: white;
+  margin: 12px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+#ordenador{
+    background-image: url("teclado.jpg"); 
+    display: block;
+    width: 280px;
+    height: 183px;
+    padding: 16px;
+    margin-right: 18px;
+
+}
+#tablet{
+    background-image: url("tablet.jpg"); 
+    display: block;
+    width: 280px;
+    height: 183px;
+    padding: 16px;
+}
+#barco{
+    background-image: url("barco.jpg");
+    display: block;
+    width: 280px;
+    height: 183px; 
+    padding: 16px;
+     margin-right: 18px;
+}
+#letrafoto{
+    margin: 10px;
+    padding: 12px;
+    padding-right: 1px;
+    padding-left: 10px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 14px;
+    font-weight: 00px;
+    color: #666666;
+}
+
+#descrip101{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #289dcc;
+    margin-left: 400px;
+}
+#descrip201{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #a5a5a5;
+    margin-left: 300px;
+}
+#fondo6{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px; /* altura de la imagen de fondo */
+    padding: 0px; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0px; 
+    right: 100px;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+
+}
+#fondo605{
+    background-image: url("captura.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px; /* altura de la imagen de fondo */
+    padding: 0px; /* relleno */
+    top: 0; /* espacio que va a ver arriba*/
+    left:0px; 
+    right: 100px;
+    width: 100%; /* ancho de la pagina */
+    background-size: cover; 
+
+}
+.marcas {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.marcas > div {
+    width: 100px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+#fondo8{
+    background-color: #289dcc;
+    margin: 0;
+    padding: 15px 0;
+}
+#twiter{
+    margin-left: 200px;
+    color: white;
+}
+#fondo9{
+    background-color: #444444;
+    margin: 0;
+    padding: 15px 0;
+}
+.final {
+    display: flex;
+    height: 300px;
+    align-items: left;
+    flex-wrap: nowrap;
+    justify-content: left;
+    color: #999999;
+}
+
+.final > div {
+    font-size: 16px;
+    width: 200px;
+    margin: 50px;
+    text-align: left;
+    
+}
+#color{
+    color: white;
+}
+#textotabla{
+    font-size: 16px;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes > div {
+    width: 50px;
+    margin: 5px;
+    text-align: left;
+    line-height: 0px;
+    font-size: 30px;
+}
+.imagenes2{
+    display: inline-block;
+
+}

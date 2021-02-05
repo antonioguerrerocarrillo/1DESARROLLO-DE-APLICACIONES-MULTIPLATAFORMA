@@ -1,0 +1,1 @@
+g++ -std=c++0x Jugador.cpp Vehiculo.cpp Pieza.cpp Coche.cpp Moto.cpp Camion.cpp Cristurismo.cpp main.cpp -o practica 

@@ -1,0 +1,38 @@
+<cristofinity>
+	<usuarios>
+		<usuario>
+			<tipousuario> normal </tipousuario>
+			<login> thanos </login>
+			<nombre> Raul </nombre>
+			<apellidos> Renol Cinco </apellidos>
+			<urlfotoperfil>/home/cristofinity/user/thanos/perfil.jpg</urlfotoperfil>
+			<totallistamedia>3</totallistamedia>
+			<listamedia> 1 2 5 </listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario> normal </tipousuario>
+			<login> noelia01 </login>
+			<nombre> Noelia </nombre>
+			<apellidos> Renol Cinco </apellidos>
+			<urlfotoperfil>/home/cristofinity/user/noelia01/perfil.jpg</urlfotoperfil>
+			<totallistamedia>3</totallistamedia>
+			<listamedia> 1 3 5 </listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario> normal </tipousuario>
+			<login> Matt </login>
+			<nombre> Mateo </nombre>
+			<apellidos> Cabello Rodriguez </apellidos>
+			<urlfotoperfil>/home/cristofinity/user/matt/perfil.jpg</urlfotoperfil>
+			<totallistamedia>2</totallistamedia>
+			<listamedia> 4 5 </listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario> admin </tipousuario>
+			<login> zizou </login>
+			<nombre> Jaime </nombre>
+			<apellidos> Zidane God </apellidos>
+			<urlfotoperfil>/home/cristofinity/user/zizou/perfil.jpg</urlfotoperfil>
+		</usuario>
+	</usuarios>
+</cristofinity>

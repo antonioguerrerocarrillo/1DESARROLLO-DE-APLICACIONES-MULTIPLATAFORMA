@@ -1,0 +1,47 @@
+/* reglas css */
+body {
+	margin: 0;
+}
+.fondo {
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 650px; /* altura de la imagen de fondo */
+	padding: 0; /* relleno */
+	top: 0; /* espacio que va a ver arriba*/
+	left:0; 
+	right: 0;
+	width: 100%; /* ancho de la pagina */
+	background-size: cover; /* rellene el contenedor en el que esta*/
+}
+.navegacion {
+	height: 80px; /* parte de arriba */
+	margin: 0;
+	width: 100%;
+}
+.logos {
+	height: 80px;
+	float: left; /* parte de izquierda */
+	width: 20%;
+}
+#contenido {
+	height: 400px;
+	float: left; /* parte derecha pero tienes que poner izquierda ya que empieza desde el lado izquierdo */
+	width: 80%;
+	background-color: red;
+
+}
+#bajo {
+	height: 150px;
+	background-color: #F3F780;
+	clear: both; /* para forzarlo y que lo coja abajo */
+}
+.logoizquierda{
+	height: 4px;
+	clear: both; /* para forzarlo y que lo coja abajo */
+}
+.logotexto{
+	height: 4px;
+	clear: both; /* para forzarlo y que lo coja abajo */
+}
+

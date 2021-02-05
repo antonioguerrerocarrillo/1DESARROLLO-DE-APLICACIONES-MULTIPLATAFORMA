@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.contenedorarriba {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.contenedorarriba > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.izquierda {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+  width: 130px;
+}
+
+.izquierda > div {
+  background-color: purple;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+
+.abajo {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.abajo > div {
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+	<body>
+			<p> contenedor de la parte de arriba</p>
+		<div class="contenedorarriba">
+  			<div>caja 1</div>
+  			<div>caja 2</div>
+  			<div>caja 3</div>  
+		</div>
+			<p>parte izquierda con alineacion central</p>
+		<div class="izquierda">
+  			<div>caja izquierda 1</div>
+  			<div>caja izquierda 2</div>
+  			<div>caja izquierda 3</div>  
+		</div>
+			<p>parte de abajo con muhcas cajas</p>
+		<div class="abajo"> 
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>  
+  			<div>4</div>
+ 			<div>5</div>
+  			<div>6</div>  
+  			<div>7</div>
+	  		<div>8</div>
+  			<div>9</div>  
+			<div>10</div>
+			<div>11</div>
+			<div>12</div>  
+		</div>
+	</body>
+</html>

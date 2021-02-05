@@ -1,0 +1,36 @@
+/* reglas css */
+
+.fondo {
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 650px; /* altura de la imagen de fondo */
+	padding: 0; /* relleno */
+	top: 0; /* espacio que va a ver arriba*/
+	left:0; 
+	right: 0;
+	width: 100%; /* ancho de la pagina */
+	background-size: cover; /* rellene el contenedor en el que esta*/
+}
+.general {
+	max-width: 1280px;
+	margin-left: -15px;
+	margin-right: -15px;
+	box-sizing: border-box; /*tamaño de caja no se incremente */ 
+	overflow: auto; /* crezca la caja */
+}
+
+.parte{
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	overflow: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.partecentral{
+ max-width: 100%;
+}
+.partederecha{
+ max-width: 100%;
+}

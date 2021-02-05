@@ -1,0 +1,48 @@
+<!-- reglas css -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<style type="text/css">
+	body {
+		font-size: 100%; /** con eso reseteas el tamaño de letra fijas el tamaño por defecto, es el tamaño de letra */  
+		background-image: url("html.png");
+		/**background-repeat: no-repeat; para que no se repita la foto y no salga duplicada */
+		/** background-position: right;  /** posicion a la derecga */
+		/** background: #ffffff url ("img.tre.jpg") no-repeat; */
+		margin-right: 300px; /** para centrar las cajas. margen exterior del bloque. */
+		margin-left: 250px; /** importante!!! poner en em un 1em son 16px */
+		margin-top: 300px; /** para espaciar de arriba */
+		margin-bottom: 300px; /** para espacial la parte de abajo */
+		/** margin-right: auto; para que ponga solo el margen */
+
+	}
+	p.doted { 
+		border-style: solid; /** para añadir bordes a los bloques */
+		background-color: red; /** color de fondo rojo */
+		border-width: 5px; /** tamaños de anchura en pixeles */	
+		padding-bottom: 5px; /** para el margen interior abajo*/
+		padding-top: 5px; /** para el margen de arriba */
+		padding-left: 10px; /** margen izquierdo */
+		padding-right: 10px;
+	}
+	.negrita {
+		font-weight: bold; /** para poner en negrita podemos usarlo tambien con numeros de 0 1000, y tipo normal ligheter */
+	}
+	p.one { /** tenemos que añadirlo mas abajo en la p del parrafo y añadirlo con su nombre */
+		border-style: solid;
+		background-color: lightblue; /** color del borde */
+		border-left-color: blue; /** borde izquierdo */
+		border-width: 0px 0px 0px 8px; /** tienes que poner los bordes de arriba, der, abajo, izq */
+		/** quiere decir que el bloque va ser azul mas claro o y la esquina izquierda con un tamaño de 2px va a tener otro azul. */
+	}
+	</style> 
+	</head> /* <!--aqui se describe la cabezera tambien los css si son de una pagina sola como en este caso. --> */
+
+	<body> <!-- este es el cuerpo de html -->
+			<div class = " rojo texto 20"> /* <!-- selector por clase --> </div> */
+			<div> para definir bloques </div> /* <!-- para definir bloques --> */
+			<p class ="doted"> hola mundo </p> /* <!-- tiene que llamarse igual que mas arribla p-dotted y afecta a esta p --> */
+			<p class = "one"> esto es otro parrafo </p> 
+			<p> salto de <br/> linea </p>  /* <!-- salto de linea --> */
+			<hr> es to es para hacer lineas </hr> /* <!-- para hacer lineas --> */
+</html>

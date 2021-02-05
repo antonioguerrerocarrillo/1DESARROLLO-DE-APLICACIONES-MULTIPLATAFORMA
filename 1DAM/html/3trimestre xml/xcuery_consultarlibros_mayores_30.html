@@ -1,0 +1,27 @@
+//buscar todos los libros mayores que 30€ por el nombre
+//devuelve en una tabla nombre de titulo y categoria
+<!DOCTYPE html>
+<html>
+	<head> 
+	</head> 
+
+	<body>
+		<ul> 
+		{
+			for $x in doc("books.xml")/book
+			<!-- coge los libros mayores de 30 -->
+			where $x/price>30
+			<!--devuelve el precio -->
+			return <li>{data($x)}</li>
+
+		}
+		</ul>
+		<table>
+			<!-- ha una tabla con los libros y muestra el titulo y categoria -->
+			{
+				for $x in doc("books.xml")/book
+				return <tr><td>$x/title</td><td>$x/@category</td></tr>
+			}
+		</table>
+	</body>
+</html>

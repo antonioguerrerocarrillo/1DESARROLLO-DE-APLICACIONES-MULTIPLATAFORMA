@@ -1,0 +1,26 @@
+body {
+	margin: 0; /* poner los margenes a cero */
+}
+#header {
+	height: 120px; /* parte de arriba */
+	background-color: blue;
+
+}
+#sidebar {
+	height: 400px;
+	float: left; /* parte de izquierda */
+	width: 20%;
+	background-color: green;
+}
+#contenido {
+	height: 400px;
+	float: left; /* parte derecha pero tienes que poner izquierda ya que empieza desde el lado izquierdo */
+	width: 80%;
+	background-color: red;
+
+}
+#bajo {
+	height: 150px;
+	background-color: #F3F780;
+	clear: both; /* para forzarlo y que lo coja abajo */
+}

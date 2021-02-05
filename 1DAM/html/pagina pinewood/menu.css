@@ -1,0 +1,124 @@
+/**css reglas y comandos basicos */
+body {
+	margin: 0;
+}
+#fondo {
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 650px; /* altura de la imagen de fondo */
+	padding: 0; /* relleno */
+	top: 0; /* espacio que va a ver arriba*/
+	left:0; 
+	right: 0;
+	width: 100%; /* ancho de la pagina */
+	background-size: cover; /* rellene el contenedor en el que esta*/
+}	
+#menu {
+	display: block;
+	 font-size: 0.75em; 
+	 margin-left: 600px; 
+	 width: 650px;
+	 color: #848484; 
+	 text-align: center;
+	 float:right;
+     position: fixed;
+}
+#cabecera1 {
+	overflow: auto;
+}
+#cajaizq{
+    font-family: sans-serif;
+}
+#partelogo {
+	padding-top: 20px;
+    padding-left: 20px;
+    width: 20%;
+    float: left;
+    overflow: auto;
+}
+#pinewood {
+	float: left;
+	overflow: visible;
+}
+#hotel {
+  color: reds;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.35em;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #444;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #232323;
+    min-width: 160px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.15), 4px 10px 15px rgba (0,0,0,.1);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#cajaizq {
+    height: 600px;
+}
+#parteizq {
+   padding-top: 90px;
+   margin-left: 70px;
+   width: 900px;
+   font-size: 14px;
+   height: 200px;
+   color: #fff;
+}
+
+#descripcionh1{
+  font-size: 5.7em; 
+  line-height: 1.5em;
+  text-align: left;
+  margin-top: 10px;
+
+}
+hr {
+    width: 80px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0px;
+}

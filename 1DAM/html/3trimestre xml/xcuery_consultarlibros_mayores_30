@@ -1,0 +1,16 @@
+//buscar todos los libros mayores que 30E por el nombre
+
+<!DOCTYPE html>
+<html>
+	<head> </head> <!--aqui se describe la cabezera -->
+
+	<body> <!-- este es el cuerpo de html -->
+		<ul> 
+{
+	for $x in doc("books.xml")/book
+	where[price>30]
+	return $x/title
+
+}
+</ul>
+</html>

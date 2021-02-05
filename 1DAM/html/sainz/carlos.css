@@ -1,0 +1,17 @@
+
+p {
+	color:blue;
+ }/** para poner de color azul las letras de p */
+ol {
+	color:#610B21;
+} /** color de la lista ordenada rojo */
+body {
+	background-image: "fondo.jpg";
+	
+}
+p {
+	background-image: "carlos.jpg"; /** para importar imagenes --> */ 
+}
+b {
+	background-image: "choche.jpg";
+}
